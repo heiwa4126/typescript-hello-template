@@ -12,12 +12,16 @@ TypeScriptでちょっと簡単なコードを書く時のテンプレート。
 ## 使い方
 
 git cloneして
+```
+git clone git@github.com:heiwa4126/typescript-hello-template.git <YyourProject>
+```
+
+準備。
 ```bash
 rm -rf .git
 git init
 pnpm up
 ```
-で準備。
 
 package.jsonをエディタで開いて
 `typescript-hello-template` を自分のプロジェクト名に置換。
@@ -43,3 +47,7 @@ pnpm watch
 
 - esbuildにする。
 - `pnpm create ...` で出来るようになりたい。
+
+## 参考
+
+[TypeScript and esbuild](https://janessagarrow.com/blog/typescript-and-esbuild/)
