@@ -1,0 +1,25 @@
+{
+  "name": "typescript-hello-template",
+  "module": "common",
+  "version": "1.0.0",
+  "description": "a exmaple code in typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "me@example.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18",
+    "typescript": "5"
+  },
+  "files": [
+    "dist/"
+  ],
+  "bin": {
+    "typescript-hello-template": "./dist/index.js"
+  }
+}

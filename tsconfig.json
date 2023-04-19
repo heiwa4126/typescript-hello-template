@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "declaration": false,
+    "sourceMap": false,
+    "esModuleInterop": false,
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src/**/*", "test/**/*", "examples/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
