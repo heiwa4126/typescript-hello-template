@@ -13,7 +13,7 @@ TypeScriptでちょっと簡単なコードを書く時のテンプレート。
 
 git cloneして
 ```
-git clone git@github.com:heiwa4126/typescript-hello-template.git <YyourProject>
+git clone git@github.com:heiwa4126/typescript-hello-template.git <YourProjectName>
 ```
 
 準備。
